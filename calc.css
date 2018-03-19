@@ -12,13 +12,13 @@ body {
     align-items: center;
     background-color: rgba(49, 53, 56, 0.7);
     margin: auto;
-    width: 100%;
+    width: 500px;
     /* margin-top: 150px; */
 }
 .titletag{
     color: white;
     text-shadow: 13px 13px 13px silver;
-    font-size: 15vh;
+    font-size: 75px;
 }
 .calc{
     display: flex;
@@ -30,4 +30,20 @@ body {
 #mult{
     margin-top: 3px;
     border: solid black 2px;
+}
+#outputAdd{
+    background-color: white;
+    text-align: center;
+}
+#outputSub{
+    background-color: white;
+    text-align: center;
+}
+#outputDiv{
+    background-color: white;
+    text-align: center;
+}
+#outputMult{
+    background-color: white;
+    text-align: center;
 }
